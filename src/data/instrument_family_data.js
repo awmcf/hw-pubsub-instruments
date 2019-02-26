@@ -6,7 +6,7 @@ const instrumentFamilyData = [
   },
   {
     name: 'Strings',
-    description: 'String instruments, stringed instruments, or chordophones are musical instruments that produce sound from vibrating strings when the performer plays or sounds the strings in some manner.',
+    description: 'String instruments, or chordophones, are musical instruments that produce sound from vibrating strings when the performer plays or sounds the strings in some manner.',
     instruments: ['violin', 'double bass', 'guitar', 'sitar', 'hurdy-gurdy']
   },
   {
