@@ -5,8 +5,8 @@ const InstrumentFamilySelectView = function () {
 };
 
 InstrumentFamilySelectView.prototype.bindEvents = function () {
-  const select = document.querySelector('#instrument-families');
-  select.addEventListener('select', (evt) => {
+  const selected = document.querySelector('#instrument-families');
+  selected.addEventListener('select', (evt) => {
   const selectedInstrumentFamily = evt.target.value
   Pubsub.publish('InstrumentFamilySelectView:instrument-selected', selectedInstrumentFamily);
   });
